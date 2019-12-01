@@ -1,0 +1,136 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#heading {
+    color: white;
+}
+
+.card{
+    margin-left: 25%;
+}
+
+.card h5 {
+    background-color: yellowgreen;
+}
+
+.card div {
+    background-color: yellowgreen;
+}
+
+.card button {
+    background-color: darkgreen;
+    color: white;
+}
+
+#weather-details {
+    border: 2px yellowgreen solid;
+    color: white;
+}
+
+.location {
+    height: 10vh;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.temperature-icon {
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.temperature-degree h3{
+    padding-left: 40px;
+} 
+
+.temperature-degree span {
+    margin: 0 0 5px 5px;
+    font-size: 27px;
+}
+
+.details {
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
+.temperature-degree {
+    cursor: pointer;
+}
+
+.temp-difference h4 {
+    margin-left: 0px;
+}
+
+.temp-description {
+    margin-left: 100px;
+}
+
+img {
+    height: 150px;
+    margin-left: 120px;
+}
+
+.current-details {
+    text-align: center;
+}
+
+.humidity {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 10vh;
+    margin-top: 20px;
+}
+
+.wind-speed {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.cloudiness {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.pressure {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.footer {
+    color: white;
+}
+
+.footer a {
+    color: yellowgreen
+}
+
+#city {
+    color: yellow;
+}
+
+.location-details {
+    color: yellow
+}

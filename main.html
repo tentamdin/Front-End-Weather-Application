@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Weather Application</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="heading" class="text-center my-3">Weather Forecast</h1>
+        <div class="card" style="width: 50%;">
+            <h5 class="card-header">Weather in your city</h5>
+            <div class="card-body">
+                <div class="row">
+                    <input type="text" name="city" id="city_name" placeholder="Search your city"
+                        class="rounded-sm col-8 ml-3">
+                    <button type="submit" class="rounded-sm col-3 ml-2" id="search">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="weather-details" class="container my-5">
+        <div class="row">
+            <div class="weather-details col-md-6">
+                <div class="location">
+                    <h1 id="city" class="location-timezone text-center my-5">Timezone</h1>
+                </div>
+                <div class="my-4">
+                    <h4 class="date-time text-center">Date and time</h4>
+                </div>
+                <div class="temperature-icon">
+                    <div class="temperature-degree">
+                        <h3 id="temp-num">34</h3>
+                    </div>
+                    <div id="icon">
+                        <!-- <h4>icon</h4> -->
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="temp-difference">
+                        <h4 class="high-low">high low</h4>
+                    </div>
+                    <div>
+                        <h4 class="temp-description">Cloudy</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="current-details col-md-6">
+                <div class="location">
+                    <h1 class="location-details">Current Details</h1>
+                </div>
+                <div class="humidity">
+                    <h4 class="humi">Humidity</h4>
+                    <h4 class="humi-value">74%</h4>
+                </div>
+                <div class="wind-speed">
+                    <h4 class="wind">Wind Speed</h4>
+                    <h4 class="wind-value">19km/h E</h4>
+                </div>
+                <div class="cloudiness">
+                    <h4 class="cloud">Cloudiness</h4>
+                    <h4 class="cloud-value">74%</h4>
+                </div>
+                <div class="pressure">
+                    <h4 class="pres">Pressure</h4>
+                    <h4 class="pres-value">1019</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="footer">
+            <p class="text-center">Designed and coded by <a href="#"> Tenzin Tamdin</a></p>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="weather.js"></script>
+</body>
+
+</html>
