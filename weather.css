@@ -15,10 +15,6 @@ body {
     color: white;
 }
 
-.card{
-    margin-left: 25%;
-}
-
 .card h5 {
     background-color: yellowgreen;
 }
@@ -133,4 +129,9 @@ img {
 
 .location-details {
     color: yellow
+}
+
+.position {
+    display: flex;
+    justify-content: center;
 }
