@@ -135,3 +135,7 @@ img {
     display: flex;
     justify-content: center;
 }
+
+.card {
+    width: 80vh;
+}
